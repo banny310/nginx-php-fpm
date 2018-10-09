@@ -45,8 +45,7 @@ function runScript()
             exit 1
         fi
     else
-        printf "Script %s does not exists\n" $1
-        exit 1
+        printf "Script %s does not exists. Skipping...\n" $1
     fi
 }
 
